@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ExplorandoMarte.src.Commands
+﻿namespace ExplorandoMarte.src.Commands
 {
     /// <summary>
     /// Fábrica para criação de objetos ICommand a partir de um caractere.
