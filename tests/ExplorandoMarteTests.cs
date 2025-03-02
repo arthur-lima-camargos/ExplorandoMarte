@@ -1,13 +1,12 @@
 ﻿using NUnit.Framework;
 using ExplorandoMarte.src.Models;
 using ExplorandoMarte.src.Commands;
-using NUnit.Framework.Legacy;
 using ExplorandoMarte.src.Factories;
 
 namespace MarsRover.Tests
 {
     [TestFixture]
-    public class RoverTests
+    public class ExplorandoMarteTests
     {
         [Test]
         public void TurnLeftTest()

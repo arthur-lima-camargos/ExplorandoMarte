@@ -91,12 +91,34 @@ Os testes foram implementados com **NUnit** e podem ser executados com:
 dotnet test
 ```
 
-Os principais cenários testados incluem:
+### Principais cenários testados:
 
-- Mudança de direção (`L` e `R`)
-- Movimentação válida e inválida
-- Detecção de colisões
-- Testes nas bordas do planalto
+- **Mudança de direção (`L` e `R`)**
+- Testa se o rover gira corretamente para a esquerda ou direita.
+
+- **Movimentação válida e inválida**
+- Verifica se o rover move-se corretamente dentro dos limites do planalto.
+- Garante que movimentos fora dos limites sejam ignorados.
+
+- **Detecção de colisões**
+- Impede que um rover mova-se para uma posição já ocupada por outro rover.
+
+- **Testes nas bordas do planalto**
+- Confirma que o sistema detecta corretamente posições dentro e fora dos limites.
+
+- **Criação de rovers pela fábrica**
+- Testa se a `RoverFactory` cria corretamente objetos `Rover` a partir de entradas válidas.
+- Valida que entradas inválidas geram exceções apropriadas.
+
+- **Validação de posições no planalto**
+- Testa se o planalto aceita posições dentro dos limites e rejeita posições fora deles.
+- Garante que o planalto registra corretamente posições ocupadas.
+
+- **Execução de comandos individuais**
+- Verifica se os comandos `RotateLeftCommand`, `RotateRightCommand` e `MoveForwardCommand` funcionam como esperado.
+
+- **Execução de sequência completa de comandos**
+- Simula uma sequência completa de comandos para um rover e valida sua posição final.
 
 ## 🎥 **Link para o Vídeo**
 
