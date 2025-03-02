@@ -106,4 +106,4 @@ Os principais cenários testados incluem:
 
 Este projeto demonstra boas práticas de desenvolvimento em C#, aplicando conceitos de **POO**, **Design Patterns**, **SOLID** e **Testes Automatizados**. O código está organizado e pronto para futuras expansões! 🚀
 
-Utilizei o Agente OpenAI GPT 4º e 3ºmini para me apoiar durante o desenvolvimento do teste.
+Utilizei o **Agente OpenAI GPT 4º e 3ºmini** para me apoiar durante o desenvolvimento do teste.
