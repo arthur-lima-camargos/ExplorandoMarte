@@ -15,8 +15,8 @@
       "type": "coreclr",
       "request": "launch",
       "preLaunchTask": "build",
-      "program": "${workspaceFolder}/ExplorandoMarte/bin/Debug/net8.0/ExplorandoMarte.dll",
-      "args": ["input.txt"],
+      "program": "${workspaceFolder}/ExplorandoMarte/src/bin/Debug/net8${cwd}.0/ExplorandoMarte.dll",
+      "args": [],
       "cwd": "${workspaceFolder}/ExplorandoMarte",
       "console": "internalConsole",
       "stopAtEntry": false

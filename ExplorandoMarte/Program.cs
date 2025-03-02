@@ -8,19 +8,34 @@ namespace ExplorandoMarte
     {
         static void Main(string[] args)
         {
-            // O caminho do arquivo de entrada pode ser passado pelos argumentos; caso contrário, usa "input.txt".  
-            string inputFile = args.Length > 0 ? args[0] : "input.txt";
+            string[] possiblePaths = { "input.txt", "ExplorandoMarte/input.txt" };
+            string? inputFile = args.Length > 0 ? args[0] : null;
 
-            if (!File.Exists(inputFile))
+            if (string.IsNullOrEmpty(inputFile) || !File.Exists(inputFile))
             {
-                Console.WriteLine($"Arquivo de entrada '{inputFile}' não encontrado.");
+                inputFile = null;
+
+                foreach (var path in possiblePaths)
+                {
+                    if (File.Exists(path))
+                    {
+                        inputFile = path;
+                        break;
+                    }
+                }
+            }
+
+            if (string.IsNullOrEmpty(inputFile))
+            {
+                Console.WriteLine("Erro: Arquivo de entrada 'input.txt' não encontrado em nenhum local esperado.");
                 return;
             }
 
             var lines = File.ReadAllLines(inputFile);
+
             if (lines.Length < 3)
             {
-                Console.WriteLine("Arquivo de entrada inválido. Verifique o formato.");
+                Console.WriteLine("Erro: Arquivo de entrada inválido. Verifique o formato.");
                 return;
             }
 

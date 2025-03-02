@@ -12,7 +12,7 @@
                 'L' => new RotateLeftCommand(),
                 'R' => new RotateRightCommand(),
                 'M' => new MoveForwardCommand(),
-                _ => null,
+                _ => throw new ArgumentException($"Comando inválido: {commandChar}"),
             };
         }
     }
