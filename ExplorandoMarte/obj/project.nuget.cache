@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9ghI8nrZqvc=",
+  "dgSpecHash": "DQwU5B0odmE=",
   "success": true,
   "projectFilePath": "C:\\Repos\\Repos Github\\ExplorandoMarte\\ExplorandoMarte\\ExplorandoMarte.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\dtiDigital\\.nuget\\packages\\nunit\\4.3.2\\nunit.4.3.2.nupkg.sha512"
+  ],
   "logs": []
 }

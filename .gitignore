@@ -1,0 +1,33 @@
+# Ignorar diretórios de build e artefatos de compilação
+/bin/
+/obj/
+
+# Ignorar diretórios de Debug e Release
+**/Debug/
+**/Release/
+
+# Ignorar arquivos gerados pelo NuGet
+*.nupkg
+project.assets.json
+project.nuget.cache
+*.csproj.nuget.dgspec.json
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+
+# Ignorar resultados de testes
+TestResults/
+.trx
+
+# Ignorar configurações específicas do Visual Studio
+.vs/
+*.suo
+*.user
+*.pdb
+
+# Ignorar logs e arquivos temporários
+*.log
+*.tmp
+
+# Ignorar arquivos do sistema operacional
+.DS_Store
+Thumbs.db
