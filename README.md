@@ -43,7 +43,23 @@ Usado na classe `RoverFactory`, que cria instâncias de `Rover` a partir dos dad
 
 Cada comando (`L`, `R`, `M`) é encapsulado em uma classe (`MoveForwardCommand`, `RotateLeftCommand`, `RotateRightCommand`). Isso facilita a extensão do sistema e mantém o código modular.
 
-## 🐞 Debugging no VSCode
+### 💡 **Justificativa para Escolha de CLI e Arquivo de Texto**
+
+A escolha de usar CLI e arquivo de texto foi baseada nos seguintes fatores:
+
+- **Simplicidade**: É uma solução direta e alinhada ao exemplo clássico fornecido no desafio.
+- **Facilidade de Teste**: Usar arquivos de entrada e saída permite testar diferentes cenários rapidamente, sem necessidade de interfaces complexas.
+- **Portabilidade**: A abordagem funciona em qualquer ambiente com suporte a .NET, sem dependências adicionais.
+
+## 🐞 **Debugging no VSCode**
+
+Defini breakpoints nas áreas críticas do código, como:
+
+- Validação de limites no método `IsWithinBounds` da classe `Plateau`.
+- Processamento de comandos no Program.cs.
+- Execução de comandos individuais (Execute nos comandos `MoveForwardCommand`, `RotateLeftCommand`, etc.).
+- Durante a execução, inspecionei variáveis locais e propriedades das classes para verificar se os valores estavam corretos.
+- Utilizei o recurso de "Step Over" (F10) para avançar linha a linha e identificar erros de lógica e validar o comportamento esperado do sistema.
 
 O projeto inclui um arquivo `launch.json` configurado para depuração no **VSCode**. Para depurar:
 
@@ -80,6 +96,11 @@ Os principais cenários testados incluem:
 - Mudança de direção (`L` e `R`)
 - Movimentação válida e inválida
 - Detecção de colisões
+- Testes nas bordas do planalto
+
+## 🎥 **Link para o Vídeo**
+
+[Assista ao vídeo de execução do desafio aqui](https://youtu.be/0ncM-dJ2uWQ)
 
 ## 📜 Considerações Finais
 
