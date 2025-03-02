@@ -27,4 +27,4 @@ jobs:
         run: dotnet build ExplorandoMarte.sln --no-restore
 
       - name: Run Tests
-        run: dotnet test ExplorandoMarte.sln --no-build --verbosity normal
+        run: dotnet test ExplorandoMarte.sln --no-build -v minimal
