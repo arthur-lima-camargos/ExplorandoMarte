@@ -90,7 +90,6 @@ namespace MarsRover.Tests
             });
         }
 
-        // 2. Teste de limites do Plateau
         [Test]
         public void PlateauAcceptsPositionWithinBounds()
         {
@@ -109,7 +108,6 @@ namespace MarsRover.Tests
             Assert.That(plateau.IsWithinBounds(position), Is.False);
         }
 
-        // 3. Teste de ocupação de posições no Plateau
         [Test]
         public void PlateauRegistersOccupiedPositions()
         {
@@ -132,7 +130,6 @@ namespace MarsRover.Tests
             Assert.That(plateau.IsPositionOccupied(new Position(2, 2)), Is.True);
         }
 
-        // 4. Teste de comandos individuais
         [Test]
         public void RotateLeftCommandWorksCorrectly()
         {
@@ -170,7 +167,6 @@ namespace MarsRover.Tests
             Assert.That(rover.Position.Y, Is.EqualTo(2));
         }
 
-        // 5. Teste de execução completa de comandos
         [Test]
         public void ExecuteFullCommandSequence()
         {
