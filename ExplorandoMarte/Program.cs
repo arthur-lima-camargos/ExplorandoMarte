@@ -9,7 +9,7 @@ namespace ExplorandoMarte
         static void Main(string[] args)
         {
             // O caminho do arquivo de entrada pode ser passado pelos argumentos; caso contrário, usa "input.txt".  
-            string inputFile = args.Length > 0 ? args[0] : "../../../input.txt";
+            string inputFile = args.Length > 0 ? args[0] : "input.txt";
 
             if (!File.Exists(inputFile))
             {

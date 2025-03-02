@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Repos\\Repos Github\\ExplorandoMarte\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4D5AB07C-6003-411E-904C-52DEDD9E7047}|ExplorandoMarte\\ExplorandoMarte.csproj|c:\\repos\\repos github\\explorandomarte\\explorandomarte\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D5AB07C-6003-411E-904C-52DEDD9E7047}|ExplorandoMarte\\ExplorandoMarte.csproj|solutionrelative:explorandomarte\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Repos\\Repos Github\\ExplorandoMarte\\ExplorandoMarte\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ExplorandoMarte\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Repos\\Repos Github\\ExplorandoMarte\\tests\\RoverTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\RoverTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RoverTests.cs",
+              "DocumentMoniker": "C:\\Repos\\Repos Github\\ExplorandoMarte\\tests\\RoverTests.cs",
+              "RelativeDocumentMoniker": "tests\\RoverTests.cs",
+              "ToolTip": "C:\\Repos\\Repos Github\\ExplorandoMarte\\tests\\RoverTests.cs",
+              "RelativeToolTip": "tests\\RoverTests.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAswA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T23:35:12.115Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
