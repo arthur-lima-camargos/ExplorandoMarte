@@ -16,7 +16,7 @@ O projeto **Explorando Marte** simula a movimentação de sondas exploratórias 
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/ExplorandoMarte.git
+   git clone https://github.com/arthur-lima-camargos/ExplorandoMarte.git
    cd ExplorandoMarte
    ```
 2. Compile e execute o projeto:
