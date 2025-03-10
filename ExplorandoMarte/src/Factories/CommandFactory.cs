@@ -1,4 +1,6 @@
-﻿namespace ExplorandoMarte.src.Commands
+﻿using ExplorandoMarte.src.Commands;
+
+namespace ExplorandoMarte.src.Factories
 {
     /// <summary>
     /// Fábrica para criação de objetos ICommand a partir de um caractere.
